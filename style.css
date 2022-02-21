@@ -1,0 +1,71 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+.template {
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-content: left;
+    width:100%; 
+    padding:40px 0; 
+    background-color:#ffffff; 
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: row;
+    width: 37rem;
+    height: fit-content;
+    margin-left: 35px;
+    padding: 0.15rem;
+    font-size: small;
+}
+
+img {
+    padding: 10px;
+}
+
+.paragraph {
+    width: 37rem;
+    line-height: 1.6rem;
+    font-size: small;
+}
+
+#column {
+    font-weight: bold;
+}
+
+#author {
+    font-weight: bold;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.brain {
+    padding-top: 2.5rem;
+}
+
+.logos img {
+    width: 3rem;
+    padding: 0;
+}
+
+#adress {
+    display: inline-block;
+    background: rgb(228, 228, 228);
+    margin: 0;
+    padding: 1rem;
+}
+
+#adress span{
+    margin-left: 0.5rem;
+    line-height: 1.5rem;
+}
